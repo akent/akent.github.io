@@ -141,67 +141,27 @@ Photobooth with Nikon wireless DSLR camera sync - akent.org
     </div>
     
     <div class="container markdown top-pad">
-        <p>It&rsquo;s almost Valentine&rsquo;s Day, and, long story short, I volunteered to run a
-&ldquo;photobooth&rdquo; for my kid&rsquo;s school class party. The
-<a href="https://www.amazon.com/gp/product/B078Q9XTPW">props</a> and backdrop were easy
-enough, but who really wants to use an expensive Polaroid-type film camera
-these days? So I cooked up another solution. What if I could use a digital
-camera, transfer photos wirelessly to my laptop and display them in an almost
-real-time slideshow on a large screen that the classroom already had? Awesome!</p>
+        <p>It&rsquo;s almost Valentine&rsquo;s Day, and, long story short, I volunteered to run a &ldquo;photobooth&rdquo; for my kid&rsquo;s school class party. The <a href="https://www.amazon.com/gp/product/B078Q9XTPW">props</a> and backdrop were easy enough, but who really wants to use an expensive Polaroid-type film camera these days? So I cooked up another solution. What if I could use a digital camera, transfer photos wirelessly to my laptop and display them in an almost real-time slideshow on a large screen that the classroom already had? Awesome!</p>
 
-<p>I happen to have a Nikon D5500 DSLR camera, which has a WiFi function built in.
-I&rsquo;ve never actually used this in-built WiFi feature, but as it turns out, it&rsquo;s
-pretty much perfect for this usecase. By default, it runs its own WiFi hotspot
-that you can connect to from your phone or laptop. The apps for both mobile and
-desktop they provide are totally terrible though, bordering on unusable.
-Luckily, open source to the rescue! The camera speaks
-<a href="https://en.wikipedia.org/wiki/Picture_Transfer_Protocol">PTP</a> over IP
-(PTP/IP). There&rsquo;s a program / library called <a href="http://gphoto.org/">gphoto2</a>
-that comes with a tool that can easily sync new photos directly to a folder.</p>
+<p>I happen to have a Nikon D5500 DSLR camera, which has a WiFi function built in. I&rsquo;ve never actually used this in-built WiFi feature, but as it turns out, it&rsquo;s pretty much perfect for this usecase. By default, it runs its own WiFi hotspot that you can connect to from your phone or laptop. The apps for both mobile and desktop they provide are totally terrible though, bordering on unusable. Luckily, open source to the rescue! The camera speaks <a href="https://en.wikipedia.org/wiki/Picture_Transfer_Protocol">PTP</a> over IP (PTP/IP). There&rsquo;s a program / library called <a href="http://gphoto.org/">gphoto2</a> that comes with a tool that can easily sync new photos directly to a folder. In theory you could also use something else like a Toshiba FlashAir WiFi SD card to transfer the image files across if your camera doesn&rsquo;t support WiFi natively.</p>
 
-<p>In theory you could also use something else like a Toshiba FlashAir WiFi SD
-card to transfer the image files across if your camera doesn&rsquo;t support WiFi
-natively.</p>
-
-<p>Assuming you&rsquo;ve set up and enabled your camera WiFi hotspot and connected to it
-from your computer, you can then run this gphoto command to wait for events
-from the camera, including waiting on any completed photo captures, and
-immediately copy those images across the WiFi:</p>
+<p>Assuming you&rsquo;ve set up and enabled your camera WiFi hotspot and connected to it from your computer, you can then run this gphoto command to wait for events from the camera, including waiting on any completed photo captures, and immediately copy those images across the WiFi:</p>
 
 <p><code>gphoto2 --port ptpip:192.168.1.1 --keep --wait-event-and-download</code></p>
 
-<p>Great! Now all we need to do is display these images. I wanted something
-fullscreen and something to show the latest images straight away, for the
-shortest possible feedback loop between taking the photo and seeing it on the
-big screen. I added some &ldquo;display the latest images&rdquo; logic to a pretty simple
-<a href="https://gist.github.com/b90cabb6e80fe5d36a734f3267c3cbc5">python script</a> that
-uses <a href="https://pyglet.org">pyglet</a>, an OpenGL python framework, as it was the
-easiest way I could find to get a fullscreen image display on MacOS.</p>
+<p>Great! Now all we need to do is display these images. I wanted something fullscreen and something to show the latest images straight away, for the shortest possible feedback loop between taking the photo and seeing it on the big screen. I added some &ldquo;display the latest images&rdquo; logic to a pretty simple <a href="https://gist.github.com/b90cabb6e80fe5d36a734f3267c3cbc5">python script</a> that uses <a href="https://pyglet.org">pyglet</a>, an OpenGL python framework, as it was the easiest way I could find to get a fullscreen image display on MacOS.</p>
 
 <p>The process the display script uses is:</p>
 
 <ul>
-<li>Every &lsquo;tick&rsquo;, check if there are new files that have appeared in the data
-directory.</li>
-<li>For every new file, assign it the median view count of all photos so far,
-minus a small weighting factor. This allows it to be displayed more often
-while it&rsquo;s still new. Choose one of these new files at random to display.</li>
-<li>If there are no new files this tick, pick one randomly from the least
-frequently displayed photos.
-<br /></li>
+<li>Every &lsquo;tick&rsquo;, check if there are new files that have appeared in the data directory.</li>
+<li>For every new file, assign it the median view count of all photos so far, minus a small weighting factor. This allows it to be displayed more often while it&rsquo;s still new. Choose one of these new files at random to display.</li>
+<li>If there are no new files this tick, pick one randomly from the least frequently displayed photos.</li>
 </ul>
 
-<p>The python <a href="https://pymotw.com/3/collections/counter.html">collections.Counter</a>
-module made tracking the view counts pretty easy.</p>
+<p>The python <a href="https://pymotw.com/3/collections/counter.html">collections.Counter</a> module made tracking the view counts pretty easy. To make the photobooth even more fun, I also grabbed one of those simple infra-red <a href="https://www.amazon.com/AmazonBasics-Wireless-Control-Digital-Cameras/dp/B003L1ZYZ6">remote triggers</a> so the people in the photos can push the trigger themselves.</p>
 
-<p>To make the photobooth even more fun, I also grabbed one of those simple
-infra-red <a href="https://www.amazon.com/AmazonBasics-Wireless-Control-Digital-Cameras/dp/B003L1ZYZ6">remote
-triggers</a>
-so the people in the photos can push the trigger themselves.</p>
-
-<p>The biggest benefit of all of this is the kids get some great photos saved
-straight away into digital form that can be then easily shared with parents and
-friends. I hope they all enjoy being the &lsquo;customers&rsquo; of this little photo booth idea!</p>
+<p>The biggest benefit of all of this is the kids get some great photos saved straight away into digital form that can be then easily shared with parents and friends. I hope they all enjoy being the &lsquo;customers&rsquo; of this little photo booth idea!</p>
 
     </div>
     
@@ -238,6 +198,17 @@ friends. I hope they all enjoy being the &lsquo;customers&rsquo; of this little 
 
 <script src="https://akent.org/js/bundle.baa2874a80b328e7dec720d3a90efc6efd25ccdf1611f37d9571354e88987590.js" integrity="sha256-uqKHSoCzKOfexyDTqQ78bv0lzN8WEfN9lXE1ToiYdZA="></script>
 
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-67845699-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
         
