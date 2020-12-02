@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>akent.org</title>
@@ -6,11 +6,7 @@
     <description>Recent content on akent.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Feb 2019 20:01:55 -0500</lastBuildDate>
-    
-	<atom:link href="https://akent.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 08 Feb 2019 20:01:55 -0500</lastBuildDate><atom:link href="https://akent.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Photobooth with Nikon wireless DSLR camera sync</title>
       <link>https://akent.org/posts/photobooth-with-nikon-wireless-camera/</link>
@@ -46,7 +42,7 @@ Long story short: don&amp;rsquo;t try to use cscope files on a 32 bit machine if
       <pubDate>Thu, 31 Dec 2009 14:46:00 +1200</pubDate>
       
       <guid>https://akent.org/posts/ideal-things-to-look-for-in-a-laptop/</guid>
-      <description>Regardless of physical dimensions, a fine dot pitch display. My current screen is a 15&amp;rdquo; normal (non-widescreen) display SXGA+ which has been great. That works out at about 116 DPI or a 0.2177mm dot pitch. It&amp;rsquo;s well worth whatever it costs extra to get a good built in display. Screen DPI calculator. No shiny / reflective display finishes. Quite simply, a deal breaker. I hate those shiny screens. Built in serial port.</description>
+      <description>Regardless of physical dimensions, a fine dot pitch display. My current screen is a 15&amp;quot; normal (non-widescreen) display SXGA+ which has been great. That works out at about 116 DPI or a 0.2177mm dot pitch. It&amp;rsquo;s well worth whatever it costs extra to get a good built in display. Screen DPI calculator. No shiny / reflective display finishes. Quite simply, a deal breaker. I hate those shiny screens. Built in serial port.</description>
     </item>
     
     <item>
