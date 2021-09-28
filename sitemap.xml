@@ -1,79 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://akent.org/</loc>
     <lastmod>2019-02-08T20:01:55-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/photobooth-with-nikon-wireless-camera/</loc>
     <lastmod>2019-02-08T20:01:55-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/</loc>
     <lastmod>2019-02-08T20:01:55-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/cscope-64-bit-vs-32-bit/</loc>
     <lastmod>2012-02-25T09:49:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/foursquare-and-google-calendar/</loc>
     <lastmod>2010-05-11T08:29:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/ideal-things-to-look-for-in-a-laptop/</loc>
     <lastmod>2009-12-31T14:46:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/the-problem-with-photography/</loc>
     <lastmod>2009-11-14T15:17:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/arial-or-helvetica/</loc>
     <lastmod>2005-07-21T09:22:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/fig-leaves/</loc>
     <lastmod>2005-06-15T13:11:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/since-u-been-gone-powerpoint/</loc>
     <lastmod>2005-04-11T13:29:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/ascii-art-spam/</loc>
     <lastmod>2005-03-19T04:52:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/pyrmont-hellhole/</loc>
     <lastmod>2005-03-11T12:41:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/connect-four-and-the-minimax-algorithm/</loc>
     <lastmod>2004-11-28T14:00:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/posts/tomatoes-arent-the-only-non-fruit/</loc>
     <lastmod>2004-11-18T01:47:00+12:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://akent.org/tags/</loc>
   </url>
-  
 </urlset>
