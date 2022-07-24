@@ -14,7 +14,6 @@ Photobooth with Nikon wireless DSLR camera sync - akent.org
 </title>
 
 
-
         <meta property="og:title" content="Photobooth with Nikon wireless DSLR camera sync - akent.org" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Adam Kent - @akent - Software Engineer"/>
@@ -39,7 +38,7 @@ Photobooth with Nikon wireless DSLR camera sync - akent.org
 
 
 
-<link rel="stylesheet" href="https://akent.org/css/main.min.1a17470bbb445167141e51822f4224fa6c3f9b4d2d2537f50402fda84168a195.css" integrity="sha256-GhdHC7tEUWcUHlGCL0Ik&#43;mw/m00tJTf1BAL9qEFooZU=" crossorigin="anonymous" media="screen">
+<link rel="stylesheet" href="https://akent.org/css/main.min.158f12cfbeafdf7d558da399e0f54aca89dae1273ae2b6e93d7d1f66718dde78.css" integrity="sha256-FY8Sz76v331VjaOZ4PVKyona4Sc64rbpPX0fZnGN3ng=" crossorigin="anonymous" media="screen">
 
 
 
@@ -146,7 +145,7 @@ Photobooth with Nikon wireless DSLR camera sync - akent.org
 <p>Great! Now all we need to do is display these images. I wanted something fullscreen and something to show the latest images straight away, for the shortest possible feedback loop between taking the photo and seeing it on the big screen. I added some &ldquo;display the latest images&rdquo; logic to a pretty simple <a href="https://gist.github.com/b90cabb6e80fe5d36a734f3267c3cbc5">python script</a> that uses <a href="https://pyglet.org">pyglet</a>, an OpenGL python framework, as it was the easiest way I could find to get a fullscreen image display on MacOS.</p>
 <p>The process the display script uses is:</p>
 <ul>
-<li>Every &lsquo;tick&rsquo;, check if there are new files that have appeared in the data directory.</li>
+<li>Every &rsquo;tick&rsquo;, check if there are new files that have appeared in the data directory.</li>
 <li>For every new file, assign it the median view count of all photos so far, minus a small weighting factor. This allows it to be displayed more often while it&rsquo;s still new. Choose one of these new files at random to display.</li>
 <li>If there are no new files this tick, pick one randomly from the least frequently displayed photos.</li>
 </ul>
@@ -186,7 +185,7 @@ Photobooth with Nikon wireless DSLR camera sync - akent.org
         
 
 
-<script src="https://akent.org/js/bundle.6eebba84ae610cff07aa65e4876c525fbfd13ffcb54222549ed8f5d9af10a7f2.js" integrity="sha256-buu6hK5hDP8HqmXkh2xSX7/RP/y1QiJUntj12a8Qp/I="></script>
+<script src="https://akent.org/js/bundle.63395fd8ba44a8270baa38f6dd56cd604eb595aea77bcedf619062ed9c0abb3e.js" integrity="sha256-Yzlf2LpEqCcLqjj23VbNYE61la6ne87fYZBi7ZwKuz4="></script>
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7LFN537M6"></script>
