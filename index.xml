@@ -1,129 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>akent.org</title>
+    <title>Adam Kent</title>
     <link>https://akent.org/</link>
-    <description>Recent content on akent.org</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Adam Kent</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Feb 2019 20:01:55 -0500</lastBuildDate><atom:link href="https://akent.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Feb 2019 20:01:55 -0500</lastBuildDate>
+    <atom:link href="https://akent.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Photobooth with Nikon wireless DSLR camera sync</title>
       <link>https://akent.org/posts/photobooth-with-nikon-wireless-camera/</link>
       <pubDate>Fri, 08 Feb 2019 20:01:55 -0500</pubDate>
-      
       <guid>https://akent.org/posts/photobooth-with-nikon-wireless-camera/</guid>
-      <description>It&amp;rsquo;s almost Valentine&amp;rsquo;s Day, and, long story short, I volunteered to run a &amp;ldquo;photobooth&amp;rdquo; for my kid&amp;rsquo;s school class party. The props and backdrop were easy enough, but who really wants to use an expensive Polaroid-type film camera these days? So I cooked up another solution. What if I could use a digital camera, transfer photos wirelessly to my laptop and display them in an almost real-time slideshow on a large screen that the classroom already had?</description>
+      <description>&lt;p&gt;It&amp;rsquo;s almost Valentine&amp;rsquo;s Day, and, long story short, I volunteered to run a &amp;ldquo;photobooth&amp;rdquo; for my kid&amp;rsquo;s school class party. The &lt;a href=&#34;https://www.amazon.com/gp/product/B078Q9XTPW&#34;&gt;props&lt;/a&gt; and backdrop were easy enough, but who really wants to use an expensive Polaroid-type film camera these days? So I cooked up another solution. What if I could use a digital camera, transfer photos wirelessly to my laptop and display them in an almost real-time slideshow on a large screen that the classroom already had? Awesome!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>cscope - 64 bit vs 32 bit</title>
       <link>https://akent.org/posts/cscope-64-bit-vs-32-bit/</link>
       <pubDate>Sat, 25 Feb 2012 09:49:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/cscope-64-bit-vs-32-bit/</guid>
-      <description>Here&amp;rsquo;s a fun Cscope error message:
-E609: Cscope error: cscope: invlib.c:566: invopen: Assertion `invcntl-aram.sizeblk == sizeof(t_logicalblk)&#39; failed.
-Long story short: don&amp;rsquo;t try to use cscope files on a 32 bit machine if they were generated on a 64 bit machine.</description>
+      <description>&lt;p&gt;Here&amp;rsquo;s a fun Cscope error message:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;E609: Cscope error: cscope: invlib.c:566: invopen: Assertion `invcntl-aram.sizeblk == sizeof(t_logicalblk)&#39; failed.&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Long story short: don&amp;rsquo;t try to use cscope files on a 32 bit machine if&#xA;they were generated on a 64 bit machine.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Foursquare and Google Calendar</title>
       <link>https://akent.org/posts/foursquare-and-google-calendar/</link>
       <pubDate>Tue, 11 May 2010 08:29:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/foursquare-and-google-calendar/</guid>
-      <description>A good use for foursquare: Go to http://foursquare.com/feeds/ and copy the URL for the ICS feed. Now go to Google Calendar, find the &amp;ldquo;Other Calendars&amp;rdquo; box on the lower left corner and click the &amp;ldquo;Add&amp;rdquo; link on the bottom right corner of that box. Select &amp;ldquo;Add by URL&amp;rdquo; and paste in the Foursquare ICS URL. Now your Foursquare checkins show up in Google Calendar, reminding you where you&amp;rsquo;ve been and what you&amp;rsquo;ve done.</description>
+      <description>&lt;p&gt;A good use for foursquare: Go to &lt;a href=&#34;http://foursquare.com/feeds/&#34;&gt;http://foursquare.com/feeds/&lt;/a&gt;&#xA;and copy the URL for the ICS feed. Now go to &lt;a href=&#34;http://www.google.com/calendar/&#34;&gt;Google&#xA;Calendar&lt;/a&gt;, find the &amp;ldquo;Other Calendars&amp;rdquo;&#xA;box on the lower left corner and click the &amp;ldquo;Add&amp;rdquo; link on the bottom&#xA;right corner of that box. Select &amp;ldquo;Add by URL&amp;rdquo; and paste in the&#xA;Foursquare ICS URL. Now your Foursquare checkins show up in Google&#xA;Calendar, reminding you where you&amp;rsquo;ve been and what you&amp;rsquo;ve done.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ideal things to look for in a laptop</title>
       <link>https://akent.org/posts/ideal-things-to-look-for-in-a-laptop/</link>
       <pubDate>Thu, 31 Dec 2009 14:46:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/ideal-things-to-look-for-in-a-laptop/</guid>
-      <description>Regardless of physical dimensions, a fine dot pitch display. My current screen is a 15&amp;quot; normal (non-widescreen) display SXGA+ which has been great. That works out at about 116 DPI or a 0.2177mm dot pitch. It&amp;rsquo;s well worth whatever it costs extra to get a good built in display. Screen DPI calculator. No shiny / reflective display finishes. Quite simply, a deal breaker. I hate those shiny screens. Built in serial port.</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Regardless of physical dimensions, a fine &lt;a href=&#34;http://en.wikipedia.org/wiki/Dot_pitch&#34;&gt;dot&#xA;pitch&lt;/a&gt; display. My current&#xA;screen is a 15&amp;quot; normal (non-widescreen) display SXGA+ which has&#xA;been great. That works out at about 116 DPI or a 0.2177mm dot pitch.&#xA;It&amp;rsquo;s well worth whatever it costs extra to get a good built&#xA;in display. &lt;a href=&#34;http://members.ping.de/~sven/dpi.html&#34;&gt;Screen DPI&#xA;calculator&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;No shiny / reflective display finishes. Quite simply, a&#xA;deal breaker. I hate those shiny screens.&lt;/li&gt;&#xA;&lt;li&gt;Built in serial port. USB to Serial converters are such a pain.&#xA;Having a permanent /dev/ttyS0 makes such a difference.&lt;/li&gt;&#xA;&lt;li&gt;A good keyboard, or at least, one that you could type on all day&#xA;without causing injury.&lt;/li&gt;&#xA;&lt;li&gt;SD card reader.&lt;/li&gt;&#xA;&lt;li&gt;Reasonably sized hard drive and lots of memory. Probably more&#xA;important than a grunty processor.&lt;/li&gt;&#xA;&lt;li&gt;Sensibly positioned USB ports and other sockets. Preferably on the&#xA;back, as frequently used ports on the side can be annoying.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>The problem with photography</title>
       <link>https://akent.org/posts/the-problem-with-photography/</link>
       <pubDate>Sat, 14 Nov 2009 15:17:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/the-problem-with-photography/</guid>
-      <description>What, then, is so wrong with the camera? Nothing, thought Ruskin initially&amp;hellip; Yet Ruskin&amp;rsquo;s enthusiasm diminished as he observed the devilish problem that photography created for the majority of its practitioners. Rather than using photography as a supplement to active, conscious seeing, they used it as an alternative, playing less attention to the world than they had done previously from a faith that photography automatically assured them posession of it.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;What, then, is so wrong with the camera? Nothing, thought Ruskin initially&amp;hellip;&#xA;Yet Ruskin&amp;rsquo;s enthusiasm diminished as he observed the devilish problem that&#xA;photography created for the majority of its practitioners. Rather than using&#xA;photography as a supplement to active, conscious seeing, they used it as an&#xA;alternative, playing less attention to the world than they had done&#xA;previously from a faith that photography automatically assured them posession&#xA;of it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Arial or Helvetica</title>
       <link>https://akent.org/posts/arial-or-helvetica/</link>
       <pubDate>Thu, 21 Jul 2005 09:22:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/arial-or-helvetica/</guid>
-      <description>Think you know your typefaces? Take the ultimate typeface quiz, and try to distinguish between Microsoft&amp;rsquo;s Arial font and the nearly identical Helvetica. I got six out of ten on a cold first go, so there are definitely tell tale signs. No cheating now!</description>
+      <description>&lt;p&gt;Think you know your typefaces? Take the &lt;a href=&#34;http://www.iliveonyourvisits.com/helvetica/&#34;&gt;ultimate typeface&#xA;quiz&lt;/a&gt;, and try to&#xA;distinguish between Microsoft&amp;rsquo;s Arial font and the nearly identical&#xA;Helvetica. I got six out of ten on a cold first go, so there are&#xA;definitely tell tale signs. No cheating now!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Fig leaves</title>
       <link>https://akent.org/posts/fig-leaves/</link>
       <pubDate>Wed, 15 Jun 2005 13:11:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/fig-leaves/</guid>
-      <description>At the door I hop about, trying to pick the stupid things off. I fall over. I get some of the leaves I have removed on my trousers. A couple I have flicked away are now stuck to a window. The tree is turning my life into a slapstick routine. I stump morosely inside, my feet sticking lightly to the carpet with each step, and open a beer.
-It&amp;rsquo;s not quite as bad as all that but still, for some reason, the Moreton Bay Figs are annoying me more than usual this year.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;At the door I hop about, trying to pick the stupid things off. I fall&#xA;over. I get some of the leaves I have removed on my trousers. A couple&#xA;I have flicked away are now stuck to a window. The tree is turning my&#xA;life into a slapstick routine. I stump morosely inside, my feet&#xA;sticking lightly to the carpet with each step, and open a beer.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;It&amp;rsquo;s not quite as bad as &lt;a href=&#34;http://www.smh.com.au/news/Heckler/The-ceaseless-thud-of-falling-figs/2005/06/14/1118645806573.html&#34;&gt;all&#xA;that&lt;/a&gt;&#xA;but still, for some reason, the Moreton Bay Figs are annoying me more&#xA;than usual this year.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Since U Been Gone Powerpoint</title>
       <link>https://akent.org/posts/since-u-been-gone-powerpoint/</link>
       <pubDate>Mon, 11 Apr 2005 13:29:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/since-u-been-gone-powerpoint/</guid>
-      <description>The web is a crazy place.
-Kelly Clarkson set to corporate slideware. Since U Been Gone Annual Report 2005 and since-youve-been-gone.pps.
-UPDATE: Original site down, archived copy.
-See also www.clicktoaddtitle.com.</description>
+      <description>&lt;p&gt;The web is a crazy place.&lt;/p&gt;&#xA;&lt;p&gt;Kelly Clarkson set to corporate slideware. &lt;a href=&#34;http://junk.haughey.com/sinceubeengone/&#34;&gt;Since U Been Gone Annual&#xA;Report 2005&lt;/a&gt; and&#xA;&lt;a href=&#34;http://sippey.typepad.com/filtered/2005/04/since_youve_bee.html&#34;&gt;since-youve-been-gone.pps&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: Original site down, &lt;a href=&#34;http://web.archive.org/web/20080407215153/http://junk.haughey.com/sinceubeengone/&#34;&gt;archived&#xA;copy&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;See also &lt;a href=&#34;http://www.clicktoaddtitle.com/&#34;&gt;www.clicktoaddtitle.com&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ASCII Art Spam</title>
       <link>https://akent.org/posts/ascii-art-spam/</link>
       <pubDate>Sat, 19 Mar 2005 04:52:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/ascii-art-spam/</guid>
-      <description>Found in my inbox: (yes, it snuck past my spam filter!) A creative way to get attention if nothing else&amp;hellip;
-., ,; .r, @kr sik awl pg kt, Bdc hlB WvW iftswgu: inwgkWvc Wkcrhb @leeqcS li mo pgg tx wl. Wwk. std yxw dn; @iS tjn gmx WbW 8cwhhp: hw ja WoZ Zbtftn@ kq .if WlW ydW:: kt, xr ca WgW tnp,i 0dW SmutkS WqW qq uc qkZ rhj WgW sqB 0wZ snqy swb lsqqefpjy ggcWemyb xet feapjlkpx0 , ,:;i : mr , ,;i .</description>
+      <description>&lt;p&gt;Found in my inbox: (yes, it snuck past my spam filter!) A creative way&#xA;to get attention if nothing else&amp;hellip;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt; .,        ,; .r,                                         &#xA;@kr      sik awl                                          &#xA; pg      kt,                                              &#xA; Bdc    hlB  WvW  iftswgu:   inwgkWvc  Wkcrhb  @leeqcS    &#xA;  li    mo   pgg  tx    wl. Wwk.  std  yxw    dn;   @iS   &#xA;  tjn  gmx   WbW    8cwhhp: hw     ja  WoZ      Zbtftn@   &#xA;   kq .if    WlW  ydW:: kt, xr     ca  WgW    tnp,i 0dW   &#xA;   SmutkS    WqW qq     uc  qkZ   rhj  WgW   sqB    0wZ   &#xA;    snqy     swb  lsqqefpjy  ggcWemyb  xet    feapjlkpx0  &#xA;              ,    ,:;i   :        mr   ,       ,;i   .:  &#xA;                            Zie   ksr                     &#xA;                              yokuv.       &#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
     <item>
       <title>Pyrmont Hellhole</title>
       <link>https://akent.org/posts/pyrmont-hellhole/</link>
       <pubDate>Fri, 11 Mar 2005 12:41:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/pyrmont-hellhole/</guid>
-      <description>Quite close to where I’m working right now in Pyrmont are three curious sandstone blocks, one of which has “Hellhole” carved into it. I have long wondered what this was all about; my best guess ‘til now was that it was just some random outdoor art installation. In retrospect it’s obvious… The area around Pyrmont used to be home to three sandstone quarries, known as Hellhole, Paradise and Purgatory.
-The quarries were named according to the relative difficulty in extracting sandstone from them, as well as the quality of the stone.</description>
+      <description>&lt;p&gt;Quite close to where I’m working right now in Pyrmont are three curious&#xA;sandstone blocks, one of which has “Hellhole” carved into it. I have&#xA;long wondered what this was all about; my best guess ‘til now was that&#xA;it was just some random outdoor art installation. In retrospect it’s&#xA;obvious… The area around Pyrmont used to be home to three sandstone&#xA;quarries, known as &lt;em&gt;Hellhole&lt;/em&gt;, &lt;em&gt;Paradise&lt;/em&gt; and &lt;em&gt;Purgatory&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The quarries were named according to the relative difficulty in&#xA;extracting sandstone from them, as well as the quality of the stone.&#xA;Apparently, Hellhole used to be close to Wattle St, near the Wentworth&#xA;Park light rail stop, whereas Paradise was closer to the water a little&#xA;bit further around from where the Channel Ten building now is.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Connect Four and the Minimax algorithm</title>
       <link>https://akent.org/posts/connect-four-and-the-minimax-algorithm/</link>
       <pubDate>Sun, 28 Nov 2004 14:00:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/connect-four-and-the-minimax-algorithm/</guid>
-      <description>A good implementation of the game Connect Four done in javascript with a more-than-competent computer AI player, implemented with a minimax algorithm. Unfortunately it only runs in Internet Explorer. It&amp;rsquo;s part of the WebFX site, which features all sorts of nifty DHTML and javascript toys and menus.
-Playing the actual game against a real live opponent is decidedly more fun than being consistently (well, 75% of the time) beaten by the computer, though.</description>
+      <description>&lt;p&gt;A good implementation of the game &lt;a href=&#34;http://webfx.eae.net/games/connectfour/cf.html&#34;&gt;Connect&#xA;Four&lt;/a&gt; done in javascript&#xA;with a more-than-competent computer AI player, implemented with a&#xA;&lt;a href=&#34;http://en.wikipedia.org/wiki/Minimax&#34;&gt;minimax&lt;/a&gt; algorithm. Unfortunately&#xA;it only runs in Internet Explorer. It&amp;rsquo;s part of the&#xA;&lt;a href=&#34;http://webfx.eae.net/&#34;&gt;WebFX&lt;/a&gt; site, which features all sorts of nifty&#xA;DHTML and javascript toys and menus.&lt;/p&gt;&#xA;&lt;p&gt;Playing the &lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/B00000IWI1/&#34;&gt;actual&#xA;game&lt;/a&gt; against a real&#xA;live opponent is decidedly more fun than being consistently (well, 75%&#xA;of the time) beaten by the computer, though. One two three four, one two&#xA;three four, one two three four, CONNECT FOUR! (damn, advertising really&#xA;works doesn&amp;rsquo;t it)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tomatoes aren&#39;t the only non-fruit</title>
       <link>https://akent.org/posts/tomatoes-arent-the-only-non-fruit/</link>
       <pubDate>Thu, 18 Nov 2004 01:47:00 +1200</pubDate>
-      
       <guid>https://akent.org/posts/tomatoes-arent-the-only-non-fruit/</guid>
-      <description>This little rant was posted on the Triple J Breakfast Show guestbook today for &amp;ldquo;tell it like it is Friday&amp;rdquo;:
-I&amp;rsquo;d like to &amp;ldquo;tell it like it is&amp;rdquo; about people who go to great pains to point out that a tomato is a fruit. I know it is a fruit. If it developed from a flower its a fruit. But why single out the tomato? You never hear this conversation&amp;hellip;</description>
+      <description>&lt;p&gt;This little rant was posted on the &lt;a href=&#34;http://www2b.abc.net.au/triplej/breakfast/guestbook/&#34;&gt;Triple J Breakfast Show&#xA;guestbook&lt;/a&gt; today&#xA;for &amp;ldquo;tell it like it is Friday&amp;rdquo;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;d like to &amp;ldquo;tell it like it is&amp;rdquo; about people who go to great pains to&#xA;point out that a tomato is a fruit. I know it is a fruit. If it&#xA;developed from a flower its a fruit. But why single out the tomato?&#xA;You never hear this conversation&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;-what veggies are we having with dinner&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
