@@ -59,8 +59,8 @@ Photobooth With Nikon Wireless DSL R Camera Sync - Adam Kent
             
             <div class="container hero ">
                 
-                <h1 class="bold-title is-1">Photobooth with Nikon wireless DSLR camera sync</h1>
-                
+
+
             </div>
             
             <div class="section ">
@@ -121,8 +121,36 @@ Photobooth With Nikon Wireless DSL R Camera Sync - Adam Kent
 
 
                 
-    <div class="container markdown top-pad">
-        <p>It&rsquo;s almost Valentine&rsquo;s Day, and, long story short, I volunteered to run a &ldquo;photobooth&rdquo; for my kid&rsquo;s school class party. The <a href="https://www.amazon.com/gp/product/B078Q9XTPW">props</a> and backdrop were easy enough, but who really wants to use an expensive Polaroid-type film camera these days? So I cooked up another solution. What if I could use a digital camera, transfer photos wirelessly to my laptop and display them in an almost real-time slideshow on a large screen that the classroom already had? Awesome!</p>
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://akent.org/posts/photobooth-with-nikon-wireless-camera/">Photobooth with Nikon wireless DSLR camera sync</a>
+    </h2>
+    
+    <div class="post-data">
+        Feb 8, 2019
+        
+         | 
+        3 minutes read
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p>It&rsquo;s almost Valentine&rsquo;s Day, and, long story short, I volunteered to run a &ldquo;photobooth&rdquo; for my kid&rsquo;s school class party. The <a href="https://www.amazon.com/gp/product/B078Q9XTPW">props</a> and backdrop were easy enough, but who really wants to use an expensive Polaroid-type film camera these days? So I cooked up another solution. What if I could use a digital camera, transfer photos wirelessly to my laptop and display them in an almost real-time slideshow on a large screen that the classroom already had? Awesome!</p>
 <p>I happen to have a Nikon D5500 DSLR camera, which has a WiFi function built in. I&rsquo;ve never actually used this in-built WiFi feature, but as it turns out, it&rsquo;s pretty much perfect for this usecase. By default, it runs its own WiFi hotspot that you can connect to from your phone or laptop. The apps for both mobile and desktop they provide are totally terrible though, bordering on unusable. Luckily, open source to the rescue! The camera speaks <a href="https://en.wikipedia.org/wiki/Picture_Transfer_Protocol">PTP</a> over IP (PTP/IP). There&rsquo;s a program / library called <a href="http://gphoto.org/">gphoto2</a> that comes with a tool that can easily sync new photos directly to a folder. In theory you could also use something else like a Toshiba FlashAir WiFi SD card to transfer the image files across if your camera doesn&rsquo;t support WiFi natively.</p>
 <p>Assuming you&rsquo;ve set up and enabled your camera WiFi hotspot and connected to it from your computer, you can then run this gphoto command to wait for events from the camera, including waiting on any completed photo captures, and immediately copy those images across the WiFi:</p>
 <p><code>gphoto2 --port ptpip:192.168.1.1 --keep --wait-event-and-download</code></p>
@@ -136,9 +164,9 @@ Photobooth With Nikon Wireless DSL R Camera Sync - Adam Kent
 <p>The python <a href="https://pymotw.com/3/collections/counter.html">collections.Counter</a> module made tracking the view counts pretty easy. To make the photobooth even more fun, I also grabbed one of those simple infra-red <a href="https://www.amazon.com/AmazonBasics-Wireless-Control-Digital-Cameras/dp/B003L1ZYZ6">remote triggers</a> so the people in the photos can push the trigger themselves.</p>
 <p>The biggest benefit of all of this is the kids get some great photos saved straight away into digital form that can be then easily shared with parents and friends. I hope they all enjoy being the &lsquo;customers&rsquo; of this little photo booth idea!</p>
 
-    </div>
-    
-    
+</div>
+
+
 
 
 
